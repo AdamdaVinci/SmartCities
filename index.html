@@ -8,18 +8,22 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	
 	<title>Smart Cities</title>
+
+	<script src="scrollreveal.min.js"></script>
+
+
 </head>
 <body>
 	<img id="img" src="city.jpg">
 					<header>
-						<img id="logo" src="logo.png">
+						<img id="logo" class="main" src="logo.png">
 					</header>
 
 	<div id="obal">	
 
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Smart Cities</a></li>
+							<li><a href="#intro">Smart Cities</a></li>
 							<li><a href="#vize">Vize</a></li>
 							<li><a href="#mapa">Mapa Smart Cities</a></li>
 							
@@ -29,7 +33,7 @@
 			<div id="main-body">
 
 					<section id="intro">
-						<header class="main"><h1>Smart Cities</h1></header>
+						<header><h1>Smart Cities</h1></header>
 						<hr>
 						<h4>Chytrá města</h4>
 						<p>Smart Cities je projekt využívající především digitální a komunikační technologie pro kvalitnější život ve městech. Efektivně využívá současné zdroje a nebojí se vyhledat i ty nové. Snižujě spotřebu energií, optimalizuje dopravu a sdílí data pro veřějné účely. </p>
@@ -37,7 +41,7 @@
 					</section>
 					
 					<section id="vize">
-						<header class="main"><h1>Vize</h1></header>
+						<header><h1>Vize</h1></header>
 						<hr>
 						<h4>Kde všude by se dalo začít</h4>
 						<p>Vysazením více stromů zaručíme lepší dýchání a vzhled města. S tím by souvisel i zákaz vjezdu dieslových aut do center a zajištění veškeré hromadné dopravy poháněné na elektřinu.</p>
@@ -45,11 +49,11 @@
 						<p>Zajišťování elektřiny pomocí fotovoltaických panelů nebo pomocí jiných obnovitelných zdrojů.</p>
 						<p>Vybudování inteligentního osvětlení, které se rozsvítí až v momentě, kdy se opravdu začne stmívat a bude mít možnost se samo vypnout v případě, že zrovna nepůjde někdo okolo.</p>
 						<p>Inteligentní panely na zastávkách zobrazující čas příjezdu, případné spoždění hromadné dopravy a kompenzace formou náhradního vozu. U těchto panelů by byla bezplatná Wi-Fi a možnost nabití elektrického zařízení.</p>
-						<p>Chytré lavičky poháněné solární energií, možnost nabití svého elektrického zařízení.</p>
+						<p>Parkovací senzory které zachytávají volná místa na parkovištích a do aplikace posílají signály o tom, jak například v % je toto parkoviště obsazené/volné. Tak má řidič přehled a nemusí bloudit stále dokola.</p>
 					</section>
 
 					<section id="mapa">
-						<header class="main"><h1>Mapa</h1></header>
+						<header><h1>Mapa</h1></header>
 						<hr>
 						<h4>Evropská Smart Cities</h4>
 						<p>
@@ -63,5 +67,10 @@
 		</footer>
 
 	</div>
+
+	<script>
+		ScrollReveal().reveal('.main',{ delay: 200 })
+	</script>
+
 </body>
 </html>

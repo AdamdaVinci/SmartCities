@@ -5,6 +5,10 @@
 		margin:0;
 		padding:0;
 	}
+
+	html.sr .load-hidden {
+    visibility: hidden;
+}
 		
 	@font-face {
 		font-family: "Dosis";
@@ -61,7 +65,6 @@
 
 	}
 
-	.main {text-align: center;}
 
 	#nav {
 		width: 100%;
